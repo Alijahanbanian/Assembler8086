@@ -8,4 +8,15 @@ This code converts a given 8086 assembler instruction to its corresponding binar
 ## Code Usage
 Enter an 8086 assembler instruction when prompted, and the script will output the binary and hexadecimal representations of the given instruction.
 ### Opcodes: 
-`ADD`, `OR`, `AND`, `SUB`, `ADC`
+`ADD` `OR` `AND` `SUB` `ADC`
+
+## Example
+### Input
+```
+add eax, edx
+```
+### Output
+```
+binary: 0000000111010000
+hexadecimal: 1D0
+```
